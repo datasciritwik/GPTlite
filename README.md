@@ -1,1 +1,2 @@
 # GPTlite
+![Sample](demo.png)
