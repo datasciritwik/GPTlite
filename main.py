@@ -226,5 +226,5 @@ context = torch.zeros((1, 1), dtype=torch.long, device=device)
 print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
 # saving model
 PATH = 'GPTlite.pt'
-torch.save(model, PATH)
+torch.save(m, PATH)
 #open('more.txt', 'w').write(decode(m.generate(context, max_new_tokens=10000)[0].tolist()))
